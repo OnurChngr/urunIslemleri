@@ -19,7 +19,7 @@ namespace urunIslemleri
             return stok;
         }
 
-
+        //Bitti
 
     }
 }
