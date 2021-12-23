@@ -38,6 +38,7 @@ namespace urunIslemleri
         private void button3_Click(object sender, EventArgs e)
         {
             lblBakiye.Text = ("Bakiye Miktarınız"+u.para.ToString());
+            //class eklendi
         }
     }
 }
