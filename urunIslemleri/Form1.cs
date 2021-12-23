@@ -26,7 +26,7 @@ namespace urunIslemleri
             u.fiyat =int.Parse( txtFiyat.Text);
             u.stok = int.Parse(txtstok.Text);
             lstUrun.Items.Add(u.urunNo+" "+u.urunCesit+" "+u.kategori+" "+u.fiyat+" "+u.stok);
-
+            // listbox'a ürün bilgileri eklendi
 
         }
 
@@ -38,7 +38,7 @@ namespace urunIslemleri
         private void button3_Click(object sender, EventArgs e)
         {
             lblBakiye.Text = ("Bakiye Miktarınız"+u.para.ToString());
-            //class eklendi
+            //label'a bakiye miktarı eklendi
         }
     }
 }

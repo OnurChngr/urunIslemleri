@@ -8,6 +8,7 @@ namespace urunIslemleri
 {
     class urun
     {
+        // class eklendi
         public string urunNo, urunCesit, kategori;
         public int fiyat, stok,para;
 
